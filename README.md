@@ -1,2 +1,2 @@
-# skadadi.github.io
+# Simran Kadadi
 Simran's Website
