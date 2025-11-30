@@ -104,7 +104,7 @@ footer {
 /* adjust 20 to the number of characters in your text */
 @keyframes typing {
   from { width: 0; }
-  to   { width: 14ch; }  /* 14ch ≈ 14 characters; adjust for your name */
+  to   { width: 13ch; }  /* 14ch ≈ 14 characters; adjust for your name */
 }
 
 /* cursor blink */
