@@ -91,11 +91,9 @@ footer {
 }
 .typewriter {
   display: inline-block;
-  font-family: monospace;              /* looks more typewriter-ish */
   white-space: nowrap;                 /* keep text on one line */
   border-right: 2px solid;             /* cursor */
   overflow: hidden;                    /* hide text until "typed" */
-  font-size: 2.5rem;
 
   /* typing effect */
   animation: typing 3s steps(20, end), blink-caret 0.7s step-end infinite;
