@@ -11,7 +11,7 @@ body {
 
 /* smoother vertical rhythm */
 section {
-  padding: 5rem 2rem;
+  padding: 6rem 2rem;
   max-width: 900px;
   margin: auto;
 }
@@ -54,7 +54,7 @@ h2 {
   background: white;
   padding: 1.8rem;
   border-radius: 14px;
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
   box-shadow: 0 4px 14px rgba(0,0,0,0.06);
   transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
@@ -64,9 +64,26 @@ h2 {
   box-shadow: 0 8px 20px rgba(0,0,0,0.08);
 }
 
-/* -----------------------------------------
-   Publications / Items
------------------------------------------- */
+/* Experience */
+.experience {
+  margin-bottom: 2.5rem;
+}
+
+.exp-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+  color: #0f172a;
+}
+
+.exp-date {
+  font-size: 1rem;
+  color: #475569;
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+/* Publications */
 .pub {
   margin-bottom: 1.4rem;
 }
@@ -75,6 +92,43 @@ h2 {
   font-weight: 600;
   font-size: 1.15rem;
   color: #0f172a;
+}
+
+.pub-authors {
+  color: #334155;
+  font-size: 1.05rem;
+}
+
+.pub-journal {
+  font-style: italic;
+  color: #475569;
+}
+
+/* Skills */
+.skills-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.skills-list li {
+  margin-bottom: 0.8rem;
+  font-size: 1.1rem;
+}
+
+.skills-list strong {
+  color: #0f172a;
+}
+
+/* Lists */
+section ul {
+  margin: 1rem 0;
+  padding-left: 1.8rem;
+}
+
+section ul ul {
+  margin-top: 0.6rem;
+  padding-left: 1.2rem;
+  list-style-type: circle;
 }
 
 /* -----------------------------------------
@@ -128,7 +182,7 @@ footer {
 }
 
 /* -----------------------------------------
-   Typewriter Effect (cleaned up)
+   Typewriter Effect
 ------------------------------------------ */
 .typewriter {
   display: inline-block;
@@ -146,18 +200,4 @@ footer {
 @keyframes blink-caret {
   0%, 100% { border-color: transparent; }
   50%      { border-color: #0f172a; }
-}
-
-/* -----------------------------------------
-   Lists (added for better formatting)
------------------------------------------- */
-ul {
-  margin: 1rem 0;
-  padding-left: 1.5rem;
-  list-style-type: disc;
-}
-
-ul ul {
-  list-style-type: circle;
-  margin-top: 0.5rem;
 }
